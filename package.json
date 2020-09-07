@@ -4,12 +4,11 @@
   "description": "idk memes i guess",
   "main": "index.js",
   "dependencies": {
-    "http-server": "^0.12.3"
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "mkdir -p site-root; cp index.html site-root"
+    "start": "mkdir -p site-root; cp index.html site-root; cp favicon.ico site-root; cp -r memes site-root"
   },
   "repository": {
     "type": "git",
