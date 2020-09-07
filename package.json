@@ -9,7 +9,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "cp index.html root"
+    "start": "mkdir -p site-root; cp index.html sute-root"
   },
   "repository": {
     "type": "git",
